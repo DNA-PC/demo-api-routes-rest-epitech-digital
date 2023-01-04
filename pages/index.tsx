@@ -12,7 +12,7 @@ export default function Index() {
 
   return (
     <div>
-      <h1>Hello Epitech 👋</h1>
+      <h1 style={{color:"green"}}>Hello Epitech 👋</h1>
       <ul>
         {data.map((user) => (
           <li key={user.id}>
